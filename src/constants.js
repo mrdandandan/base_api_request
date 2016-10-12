@@ -3,6 +3,6 @@ const METHOD = {
     POST: 'POST'
 };
 
-export default {
+export {
     METHOD
 };

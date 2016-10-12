@@ -4,7 +4,8 @@
   "description": "A base template for creating api requests",
   "main": "dist/index.js",
   "scripts": {
-    "build": "babel src -d dist"
+    "build": "babel src -d dist",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",

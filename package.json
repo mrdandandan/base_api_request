@@ -1,0 +1,28 @@
+{
+  "name": "api-request-base",
+  "version": "0.0.1",
+  "description": "A base template for creating api requests",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrdandandan/base_api_request.git"
+  },
+  "author": "Daniel Miller <npm@dannymiller.me>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrdandandan/base_api_request/issues"
+  },
+  "homepage": "https://github.com/mrdandandan/base_api_request#readme",
+  "dependencies": {
+    "request-promise": "latest"
+  },
+  "devDependencies": {
+    "babel": "^6.3.26",
+    "babel-cli": "^6.4.5",
+    "babel-core": "^6.4.5",
+    "babel-preset-es2015": "^6.3.13"
+  }
+}

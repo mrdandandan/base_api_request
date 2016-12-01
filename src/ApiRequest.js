@@ -131,7 +131,7 @@ export default class ApiRequest {
 
             // Populate path
             _getPathTokens(_requestProperties.path).forEach(token => {
-                if (!params[token]) {
+                if (params[token] === undefined) {
                     return;
                 }
                 _requestProperties.path = _requestProperties.path.replace(`{${token}}`, params[token]);

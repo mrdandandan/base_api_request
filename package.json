@@ -1,6 +1,6 @@
 {
   "name": "api-request-base",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A base template for creating api requests",
   "main": "dist/index.js",
   "scripts": {

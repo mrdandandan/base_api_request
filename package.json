@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/mrdandandan/base_api_request#readme",
   "dependencies": {
+    "request": "^2.81.0",
     "request-promise": "latest"
   },
   "devDependencies": {
